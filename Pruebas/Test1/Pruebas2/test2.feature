@@ -1,5 +1,5 @@
 @Login
-Feature: Inicio de sesión con credenciales válidas
+Feature: Inicio de sesión con credenciales válidas md
 
   Scenario: Usuario inicia sesión exitosamente con credenciales válidas
     Given el usuario está registrado en el sistema
