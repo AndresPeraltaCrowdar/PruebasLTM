@@ -1,0 +1,24 @@
+Etiquetas:
+@Nombre_de_la_etiqueta
+
+Identificador:
+Identificador único del caso de prueba
+
+Título:
+Título del caso de prueba
+
+Descripción:
+Descripción del caso de prueba
+
+Precondiciones:
+1.Primera precondición
+2.Segunda precondición
+
+Pasos:
+1.Primer paso
+2.Segundo paso
+3.Tercer paso
+
+Resultado Esperado:
+Resultado esperado del caso de prueba
+
