@@ -36,5 +36,32 @@ Registro exitoso de un alumno
     And se deja el campo "DNI" vacío
     And se deja el campo "Correo electrónico" vacío
     And no se selecciona ninguna dificultad de aprendizaje
+    Then se visualiza el mensaje de error "Todos los campos son obligatorios"
+    
+  @Candidate   
+  Scenario: Error en el registro por campos vacíos
+    Given que el docente titular ha accedido al formulario de registro de alumno
+    When se deja el campo "Nombre" vacío
+    And se deja el campo "DNI" vacío
+    And se deja el campo "Correo electrónico" vacío
+    And no se selecciona ninguna dificultad de aprendizaje
     Then se visualiza el mensaje de error "Todos los campos son obligatorios"  
+  
+  @Automated   
+  Scenario: Error en el registro por campos vacíos
+    Given que el docente titular ha accedido al formulario de registro de alumno
+    When se deja el campo "Nombre" vacío
+    And se deja el campo "DNI" vacío
+    And se deja el campo "Correo electrónico" vacío
+    And no se selecciona ninguna dificultad de aprendizaje
+    Then se visualiza el mensaje de error "Todos los campos son obligatorios"  
+  
+  @ToBeAutomated   
+  Scenario: Error en el registro por campos vacíos
+    Given que el docente titular ha accedido al formulario de registro de alumno
+    When se deja el campo "Nombre" vacío
+    And se deja el campo "DNI" vacío
+    And se deja el campo "Correo electrónico" vacío
+    And no se selecciona ninguna dificultad de aprendizaje
+    Then se visualiza el mensaje de error "Todos los campos son obligatorios"      
     
